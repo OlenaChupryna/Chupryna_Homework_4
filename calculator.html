@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <title>Калькулятор</title>
+      <link rel="stylesheet" type="text/css" href="./style.css" />
+      <meta name="viewport" content="width=device-width,
+initial-scale=1.0" />
+   </head>
+
+   <body>
+     <header>
+         <img id="logo" src="./logo.jpg" alt="Logotip" />
+         <h1>Технологии Front-End</h1>   
+               
+         <nav>
+            <ul class="level1">
+               <li class="level1"><a href="./index.html">Главная</a></li class="level1">
+               <li class="level1"><a href="./tech.html">Технологии</a>
+                  <ul>
+                     <li><a href="./html.html">HTML</a></li>
+                     <li><a href="./css.html">CSS</a></li>
+                     <li><a href="./bootstrap.html">Bootstrap</a></li>
+                  </ul>
+               </li>
+               <li class="level1"><a href="./calculator.html">Калькулятор</a></li>
+               <li class="level1"><a href="./test.html">Тест</a></li>
+            </ul>
+         </nav>
+       </header>            
+            
+      <div class="center">    
+         <form id="calculator" name="calculator" action="#" method="get">
+            <div class="flex-container1">
+               <div class="flex-container2">
+                  <div class="flex-item calculatorWindow"><input id="calculatorWindow" name="calculatorWindow" type="text" value="" readonly="readonly"></div>
+               </div>
+               
+               <div class="flex-container2">
+                  <div class="flex-item"><button id="seven" name="seven" type="button">7</button></div>
+                  <div class="flex-item"><button id="eight" name="eight" type="button">8</button></div>
+                  <div class="flex-item"><button id="nine" name="nine" type="button">9</button></div>
+                  <div class="flex-item"><button id="devisionSign" name="devisionSign" type="button">/</button></div>
+                  <div class="flex-item"><button id="buttonC" name="buttonC" type="button">C</button></div>
+               </div>
+               
+               <div class="flex-container2">
+                  <div class="flex-item"><button id="four" name="four" type="button">4</button></div>
+                  <div class="flex-item"><button id="five" name="five" type="button">5</button></div>
+                  <div class="flex-item"><button id="six" name="six" type="button">6</button></div>
+                  <div class="flex-item"><button id="multiplicationSign" name="multiplicationSign" type="button">&lowast;</button></div>
+                  <div class="flex-item"><button id="signChange" name="signChange" type="button">&plusmn;</button></div>
+               </div>
+               
+               <div class="flex-container2">
+                  <div class="flex-container1">
+                     <div class="flex-container2">
+                        <div class="flex-item"><button id="one" name="one" type="button">1</button></div>
+                        <div class="flex-item"><button id="two" name="two" type="button">2</button></div>
+                        <div class="flex-item"><button id="three" name="three" type="button">3</button></div>
+                        <div class="flex-item"><button id="minusSign" name="minusSign" type="button">&minus;</button></div>
+                     </div>
+                     
+                     <div class="flex-container2">
+                        <div class="flex-item"><button id="zero" name="zero" type="button">0</button></div>
+                        <div class="flex-item"><button id="dot" name="dot" type="button">.</button></div>
+                        <div class="flex-item"><button id="plusSign" name="plusSign" type="button">&plus;</button></div>
+                     </div>
+                  </div>   
+                  <div class="flex-item"><button id="equalSign" name="equalSign" type="button">&#61;</button></div>
+               </div>
+                              
+            </div>
+         </form>
+      </div>
+      
+      <footer>
+        <address><a href="mailto:chupryna.ol@gmail.com">Пишите: chupryna.ol@gmail.com</a></address>
+         &copy; Чуприна Е.А., 2017 г.
+      </footer>
+   </body>
+</html>
